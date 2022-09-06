@@ -212,8 +212,8 @@ MonoBehaviour:
   virtualCam: {fileID: 0}
   lensOrthoSizeEnter: 3
   lensOrthoSizeExit: 5
-  smooth: 1
-  moveCamTarget: 1
+  smooth: 0.5
+  lockCamTarget: 1
   targetCam: {fileID: 419513665}
   eyeCamFocus: {fileID: 0}
-  oculSpriteInGame: 0
+  oculSpriteInGame: 1
