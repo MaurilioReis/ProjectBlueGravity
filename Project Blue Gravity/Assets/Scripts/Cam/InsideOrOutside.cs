@@ -2,17 +2,41 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteriorOrOutside : MonoBehaviour
+public class InsideOrOutside : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject[] activeObjs; // selec objects ative
+    public GameObject[] desactiveObjs; // selec objects desactive
 
-    // Update is called once per frame
-    void Update()
+    public bool enterTrigger = true; // select trigger in enter or exit
+
+    private void OnTriggerEnter2D(Collider2D collision) // Enter
     {
-        
+        if (collision.tag == "Player" && enterTrigger == true) // if Player enter and bool enterTrigger == true
+        {
+            foreach (GameObject insideGo in activeObjs)
+            {
+                insideGo.SetActive(true); // Active Inside
+            }
+
+            foreach (GameObject outsideObj in desactiveObjs)
+            {
+                outsideObj.SetActive(false);// Desactive Outside
+            }
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision) // Exit
+    {
+        if (collision.tag == "Player" && enterTrigger == false) // if Player exit and bool enterTrigger == true
+        {
+            foreach (GameObject insideGo in activeObjs)
+            {
+                insideGo.SetActive(true); // Active Inside
+            }
+
+            foreach (GameObject outsideObj in desactiveObjs)
+            {
+                outsideObj.SetActive(false);// Desactive Outside
+            }
+        }
     }
 }

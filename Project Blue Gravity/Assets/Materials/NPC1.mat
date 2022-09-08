@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Test
+  m_Name: NPC1
   m_Shader: {fileID: -6465566751694194690, guid: f5cd7b07f56f93446a3e573ab72a6554, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,27 +34,71 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Acessories:
-        m_Texture: {fileID: 2800000, guid: d12b2eac22c52e744b7853aebb8d7872, type: 3}
+        m_Texture: {fileID: 2800000, guid: bcaf4ccfb88fc2f43814641c955c11e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Acessoryes:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BackAccessory:
+        m_Texture: {fileID: 2800000, guid: 3cf3c366fde89354ca2a70d729049021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Beard:
+        m_Texture: {fileID: 2800000, guid: 3cf3c366fde89354ca2a70d729049021, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Bodie:
         m_Texture: {fileID: 2800000, guid: fdf0ef50783d4ac4abc786933b174252, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Eye:
+        m_Texture: {fileID: 2800000, guid: 52983fe99e2413340bdb9b35b977838a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Eyes:
-        m_Texture: {fileID: 2800000, guid: eda0bd42a38ceac4788370c153971256, type: 3}
+        m_Texture: {fileID: 2800000, guid: 06b2c6644a5fb6a4d95c4cc1f9d2e02f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FaceAcessory:
+        m_Texture: {fileID: 2800000, guid: 3cf3c366fde89354ca2a70d729049021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Glove:
+        m_Texture: {fileID: 2800000, guid: 3cf3c366fde89354ca2a70d729049021, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Hair:
-        m_Texture: {fileID: 2800000, guid: 004e1aa730a43324c9b2943629daaa88, type: 3}
+        m_Texture: {fileID: 2800000, guid: a84297f6d3173744ab787c1dc8a480c8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hairs:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hat:
+        m_Texture: {fileID: 2800000, guid: 3cf3c366fde89354ca2a70d729049021, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4ffeb4a1eaeb9cf418a7b3f7029d6f7e, type: 3}
+        m_Texture: {fileID: 2800000, guid: e28fa78ce39a50f49b12924b7622c2eb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Outfit:
-        m_Texture: {fileID: 2800000, guid: 148775a770b9e1a4588b87a3e0eb4ca9, type: 3}
+        m_Texture: {fileID: 2800000, guid: f41ab46f97a494643b226b704ad2bde1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Outfits:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Skin:
+        m_Texture: {fileID: 2800000, guid: a5b129d57d6168a4aac57cb18ed4ea1b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Skins:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_0a6b1e1789de4e84b6e986ebdb227646_Out_0:
@@ -122,7 +166,7 @@ Material:
     - _DecalMeshDepthBias: 0
     - _DecalMeshViewBias: 0
     - _DrawOrder: 0
-    - _Frame: 0
+    - _Frame: 3
     - _QueueControl: 0
     - _QueueOffset: 0
     - _TestNormal: 0.1
